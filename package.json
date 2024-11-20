@@ -1,0 +1,22 @@
+{
+  "name": "y2m",
+  "version": "1.0.0",
+  "description": "Web SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashbek/y2m.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashbek/y2m/issues"
+  },
+  "homepage": "https://github.com/yashbek/y2m#readme",
+  "dependencies": {
+    "@buf/googleapis_googleapis.bufbuild_es": "^2.2.2-20241115201650-c0913f24652a.1"
+  }
+}

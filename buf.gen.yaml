@@ -1,8 +1,10 @@
-# buf.gen.yaml
-version: v1
+version: v2
 managed:
   enabled: true
 plugins:
-  - plugin: buf.build/bufbuild/es:v2.2.2
+  - remote: buf.build/bufbuild/es:v2.2.2
     out: ./api
-    opt: module=github.com/yashbek/y2m/api
+    opt:
+      - target=js
+      - js_import_style=module
+      - json_types=true

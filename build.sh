@@ -1,5 +1,5 @@
 set -xe
 
 buf lint
-rm -rf api
+rm -rf api/*
 buf generate
