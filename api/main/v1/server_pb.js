@@ -5,13 +5,14 @@
 import { fileDesc, serviceDesc } from "@bufbuild/protobuf/codegenv1";
 import { file_main_v1_ping } from "./ping_pb";
 import { file_main_v1_queue_up } from "./queue_up_pb";
+import { file_main_v1_auth } from "./auth_pb";
 import { file_google_api_annotations } from "../../google/api/annotations_pb";
 
 /**
  * Describes the file main/v1/server.proto.
  */
 export const file_main_v1_server = /*@__PURE__*/
-  fileDesc("ChRtYWluL3YxL3NlcnZlci5wcm90bxIHbWFpbi52MTKhAQoLTWFpblNlcnZpY2USRAoEUGluZxIULm1haW4udjEuUGluZ1JlcXVlc3QaFS5tYWluLnYxLlBpbmdSZXNwb25zZSIPgtPkkwIJEgcvcGluZ21lEkwKB1F1ZXVlVXASFy5tYWluLnYxLlF1ZXVlVXBSZXF1ZXN0GhgubWFpbi52MS5RdWV1ZVVwUmVzcG9uc2UiDoLT5JMCCBIGL3F1ZXVlQlcKC2NvbS5tYWluLnYxQgtTZXJ2ZXJQcm90b1ABogIDTVhYqgIHTWFpbi5WMcoCB01haW5cVjHiAhNNYWluXFYxXEdQQk1ldGFkYXRh6gIITWFpbjo6VjFiBnByb3RvMw", [file_main_v1_ping, file_main_v1_queue_up, file_google_api_annotations]);
+  fileDesc("ChRtYWluL3YxL3NlcnZlci5wcm90bxIHbWFpbi52MTK1AgoLTWFpblNlcnZpY2USRAoEUGluZxIULm1haW4udjEuUGluZ1JlcXVlc3QaFS5tYWluLnYxLlBpbmdSZXNwb25zZSIPgtPkkwIJEgcvcGluZ21lEkwKB1F1ZXVlVXASFy5tYWluLnYxLlF1ZXVlVXBSZXF1ZXN0GhgubWFpbi52MS5RdWV1ZVVwUmVzcG9uc2UiDoLT5JMCCBIGL3F1ZXVlEkoKBlNpZ25VcBIWLm1haW4udjEuU2lnblVwUmVxdWVzdBoXLm1haW4udjEuU2lnblVwUmVzcG9uc2UiD4LT5JMCCSIHL3NpZ251cBJGCgVMb2dpbhIVLm1haW4udjEuTG9naW5SZXF1ZXN0GhYubWFpbi52MS5Mb2dpblJlc3BvbnNlIg6C0+STAggiBi9sb2dpbkJXCgtjb20ubWFpbi52MUILU2VydmVyUHJvdG9QAaICA01YWKoCB01haW4uVjHKAgdNYWluXFYx4gITTWFpblxWMVxHUEJNZXRhZGF0YeoCCE1haW46OlYxYgZwcm90bzM", [file_main_v1_ping, file_main_v1_queue_up, file_main_v1_auth, file_google_api_annotations]);
 
 /**
  * @generated from service main.v1.MainService
